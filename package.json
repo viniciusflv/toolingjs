@@ -7,9 +7,6 @@
     "libs/*"
   ],
   "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev",
-    "lint": "turbo run lint",
     "prepare": "husky install"
   },
   "devDependencies": {
@@ -24,6 +21,11 @@
   "commitlint": {
     "extends": [
       "@toolingjs/commitlint"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "@toolingjs/babel"
     ]
   }
 }

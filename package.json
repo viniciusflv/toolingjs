@@ -20,7 +20,7 @@
   "prettier": "@toolingjs/prettier",
   "commitlint": {
     "extends": [
-      "@toolingjs/commitlint"
+      "@commitlint/config-conventional"
     ]
   }
 }

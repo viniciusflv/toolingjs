@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "toolingjs",
   "description": "Monorepo for Toolingjs",
   "packageManager": "npm@9.5.1",

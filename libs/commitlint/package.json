@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0",
+  "version": "0.0.1",
   "name": "@toolingjs/commitlint",
   "description": "Tooling configuration for commitlint",
   "dependencies": {

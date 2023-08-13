@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "name": "@toolingjs/commitlint",
+  "description": "Tooling configuration for commitlint",
+  "dependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0"
+  },
+  "main": "index.js",
+  "private": false,
+  "license": "ISC",
+  "author": {
+    "name": "Vinícius Victorino",
+    "email": "viniciusflv@gmail.com",
+    "url": "https://viniciusflv.github.io"
+  },
+  "keywords": [
+    "commit",
+    "linting"
+  ]
+}

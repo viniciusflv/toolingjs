@@ -9,6 +9,7 @@
   "scripts": {
     "lint": "eslint --fix \"**/*.{mjs,cjs,js,ts,tsx,json}\"",
     "format": "prettier --write \"**/*.{mjs,cjs,js,ts,tsx,json}\"",
+    "staged": "lint-staged",
     "prepare": "husky install"
   },
   "devDependencies": {
@@ -18,7 +19,14 @@
     "@toolingjs/eslint-config": "^1.0.0",
     "@toolingjs/prettier": "^1.0.0",
     "husky": "^8.0.3",
+    "lint-staged": "^14.0.0",
     "turbo": "^1.10.12"
+  },
+  "lint-staged": {
+    "*.{mjs,cjs,js,ts,tsx,json}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
   },
   "prettier": "@toolingjs/prettier",
   "eslintConfig": {

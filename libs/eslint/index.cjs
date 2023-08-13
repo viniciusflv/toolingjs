@@ -1,5 +1,5 @@
 /**
- * @type {import("prettier").Config}
+ * @type {import("eslint").Linter.Config}
  */
 module.exports = {
   env: {

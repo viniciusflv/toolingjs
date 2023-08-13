@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "toolingjs",
+  "description": "Monorepo for Toolingjs",
+  "packageManager": "npm@9.5.1",
+  "workspaces": [
+    "libs/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.12"
+  }
+}

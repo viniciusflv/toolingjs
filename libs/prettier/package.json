@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "name": "@toolingjs/prettier",
+  "description": "Tooling configuration for prettier code formatter",
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.2.0",
+    "prettier": "^3.0.1"
+  },
+  "main": "index.js",
+  "private": false,
+  "license": "ISC",
+  "author": {
+    "name": "Vinícius Victorino",
+    "email": "viniciusflv@gmail.com",
+    "url": "https://viniciusflv.github.io"
+  },
+  "keywords": [
+    "prettier",
+    "formatting"
+  ]
+}

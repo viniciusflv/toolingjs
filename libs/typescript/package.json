@@ -1,12 +1,14 @@
 {
   "version": "1.0.0",
-  "name": "@toolingjs/commitlint",
-  "description": "Tooling configuration for commitlint",
+  "name": "@toolingjs/typescript",
+  "description": "Tooling configuration for typescript",
   "dependencies": {
-    "@commitlint/cli": "^17.7.1",
-    "@commitlint/config-conventional": "^17.7.0"
+    "typescript": "^5.1.6"
   },
-  "main": "index.cjs",
+  "files": [
+    "base.json",
+    "react-library.json"
+  ],
   "private": false,
   "license": "ISC",
   "author": {
@@ -15,7 +17,7 @@
     "url": "https://viniciusflv.github.io"
   },
   "keywords": [
-    "commit",
-    "linting"
+    "superset",
+    "typescript"
   ]
 }

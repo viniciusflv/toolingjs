@@ -7,10 +7,16 @@
     "libs/*"
   ],
   "scripts": {
+    "lint": "eslint --fix \"**/*.{mjs,cjs,js,ts,tsx,json}\"",
+    "format": "prettier --write \"**/*.{mjs,cjs,js,ts,tsx,json}\"",
     "prepare": "husky install"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
+    "@toolingjs/babel": "^1.0.0",
+    "@toolingjs/commitlint": "^1.0.0",
+    "@toolingjs/eslint-config": "^1.0.0",
+    "@toolingjs/prettier": "^1.0.0",
     "husky": "^8.0.3",
     "turbo": "^1.10.12"
   },

@@ -38,7 +38,6 @@ module.exports = {
   },
   rules: {
     'prettier/prettier': ['warn'],
-    '@typescript-eslint/sort-type-union-intersection-members': ['warn'],
     '@typescript-eslint/explicit-function-return-type': [
       'warn',
       {

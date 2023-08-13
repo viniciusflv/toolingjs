@@ -18,6 +18,9 @@
     "turbo": "^1.10.12"
   },
   "prettier": "@toolingjs/prettier",
+  "eslintConfig": {
+    "extends": "@toolingjs"
+  },
   "commitlint": {
     "extends": [
       "@toolingjs/commitlint"

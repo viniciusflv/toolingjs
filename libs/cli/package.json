@@ -1,0 +1,30 @@
+{
+  "version": "0.0.1",
+  "name": "toolingjs",
+  "description": "CLI for ToolingJS",
+  "dependencies": {},
+  "main": "index.cjs",
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "toolingjs": "index.cjs"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viniciusflv/toolingjs.git"
+  },
+  "license": "ISC",
+  "author": {
+    "name": "Vinícius Victorino",
+    "email": "viniciusflv@gmail.com",
+    "url": "https://viniciusflv.github.io"
+  },
+  "keywords": [
+    "cli"
+  ]
+}

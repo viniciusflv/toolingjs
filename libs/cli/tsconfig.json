@@ -1,0 +1,11 @@
+{
+  "extends": "@toolingjs/typescript/react-library.json",
+  "include": ["src/**/*", "index.d.ts"],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "**/*.stories.tsx"
+  ]
+}
